@@ -31,9 +31,9 @@
 #include <TinyGPS++.h>
 
 // Config (Use APN corresponding to your service providers configs)
-static String apn="internet.itelcel.com";
-static String loggingPassword="webgprs2002.";
-static String serverIP="gps.oruss.com.mx";
+static String apn="em";
+static String loggingPassword="";
+static String serverIP="gps.oruss.com.mx:11904";
 
 // Pins where GPS and SIM modules are connected
 static const int ErrorPin = 10, SimConnectionPin = 12;
